@@ -1,0 +1,48 @@
+
+body {
+    background-color: #c09188 ; 
+    color:#3b2f2d;            
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+    margin: 0%;
+    line-height: 1.6;
+    padding: 20px;  
+    align-items: center;  
+}
+
+div {
+        background-color: rgb(202, 169, 169);
+        width: 50%;
+        border: dashed black 1px;
+        padding: 20px;
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+        max-width: 600px;
+         margin: 20px auto;
+        align-items: center;
+      }
+
+  .iframe {
+         max-width: 600px;
+         margin: 20px auto;
+ }
+
+h1 {
+    color:#692d2d;         
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    text-align: center; 
+}
+
+a {
+  text-decoration: none;
+  color: #692d2d;
+  font-weight: bold;
+    transition: transform 0.3s ease;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+  color:#836161;
+  transform: scale(1.1);
+}
+
+

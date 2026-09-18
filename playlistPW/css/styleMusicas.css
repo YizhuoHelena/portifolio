@@ -1,0 +1,54 @@
+.helena {
+    background-color: #c06464; }
+
+
+.ryan {
+    background-color: #63a2c0; 
+}
+
+.bleda {
+    background-color: #538d4b;
+}
+
+.melissa {
+    background-color: rgb(201, 176, 53);
+}
+
+.musica_helena, .musica_ryan, .musica_bleda, .musica_melissa {
+    width: 270px;
+    height: 500px;
+    padding: 15px;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    transition: 0.35s;
+}
+
+
+
+.musica_helena:hover, .musica_ryan:hover, .musica_bleda:hover, .musica_melissa:hover{
+transform: scale(1.10);
+width: 25;
+}
+
+.musica_helena:hover {
+    background-attachment: fixed;
+    background-color: #754545;
+}
+
+.musica_ryan:hover {
+    background-attachment: fixed;
+    background-color:  #4c6e7d; ;
+}
+
+.musica_bleda:hover {
+    background-attachment: fixed;
+    background-color: #346b3d;
+}
+
+.musica_melissa:hover {
+     background-attachment: fixed;
+    background-color: #7e641f;
+}

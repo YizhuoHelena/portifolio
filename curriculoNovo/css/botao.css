@@ -1,0 +1,14 @@
+.botao-curriculo {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000; 
+    color: #ffffff;            
+    text-decoration: none;     
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.botao-curriculo:hover {
+    background-color: #555555; 
+    transform: scale(1.1);
+}

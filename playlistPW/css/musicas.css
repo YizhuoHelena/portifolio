@@ -1,0 +1,43 @@
+.musica_helena, .musica_ryan, .musica_bleda, .musica_melissa {
+    width: 270px;
+    height: 500px;
+    padding: 15px;
+    border: solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: 0.35s;
+}
+
+
+
+.musica_helena:hover, .musica_ryan:hover, .musica_bleda:hover, .musica_melissa:hover{
+transform: scale(1.10);
+width: 25;
+}
+
+.musica_helena:hover {
+    background-attachment: fixed;
+    background-color: #5c3c3c;
+}
+
+.musica_ryan:hover {
+    background-attachment: fixed;
+    background-color:  #4c6e7d; ;
+}
+
+.musica_bleda:hover {
+    background-attachment: fixed;
+    background-color: #49704f;
+}
+
+.musica_melissa:hover {
+     background-attachment: fixed;
+    background-color: #887c30;
+}
+
+audio {
+    user-select: auto;
+    width: 90%;
+    padding: 20px;
+}

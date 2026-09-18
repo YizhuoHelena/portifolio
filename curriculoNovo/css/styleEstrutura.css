@@ -1,0 +1,97 @@
+.tudo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  
+}
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.superior {
+    padding: 20px;
+    margin: 20px;
+    margin-top: 80px;
+}
+
+
+.titulo  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.coluna-esquerda {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+
+    text-align: start;
+    align-items: flex-start;
+    gap: 9px;
+    border-right: 1px solid #000000;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+.coluna-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    width: 65%;;
+    padding-left: 20px;
+}
+
+.reference {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.linha-contato {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icone-hobby {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.linha-contato img {
+    width: 20px;
+    height: 20px;
+    align-items: contain; 
+}
+
+.edu-title {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.icone-hobby img {
+    width: 25px;
+    height: 25px;
+   
+}
+
+hr.linha-lateral, hr.linha-principal, hr.linha-horizontal {
+    border: none;
+    border-top: 1px solid black; 
+    margin: 15px ;          
+    width: 100%;
+   
+}
